@@ -1,0 +1,18 @@
+var a = 10;
+document.write("Result:</br>The value of a is: 10</br>..............................................");
+new_a = ++a;
+console.log(new_a);
+console.log(a);
+document.write("</br></br>The value of ++a is: 11</br>Now the value of a is: 11");
+new_a = a++;
+console.log(new_a);
+console.log(a);
+document.write("</br></br></br>The value of a++ is: 11</br>Now the value of a is: 12");
+new_a = --a;
+console.log(new_a);
+console.log(a);
+document.write("</br></br></br>The value of --a is: 11</br>Now the value of a is: 11");
+new_a = a--;
+console.log(new_a);
+console.log(a);
+document.write("</br></br></br>The value of a-- is: 11</br>Now the value of a is: 10");
